@@ -104,8 +104,7 @@ nav::after {
 
 .text {
     display: inline-block;
-    min-width: 480px;
-    max-width: calc(90% - 607px);
+    width: calc(90% - 607px);
     margin: 0;
     padding: 20px 45px 0 45px;
     vertical-align: top;
@@ -326,6 +325,7 @@ footer {
     width: calc(100% - 130px);
     transition: .2s;
     text-decoration: none;
+    text-align: left;
 }
 
 .download-button:hover {
