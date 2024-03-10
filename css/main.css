@@ -252,6 +252,62 @@ footer {
     padding-bottom: 25px;
 }
 
+.centered-content {
+    background-color: #282828;
+    border-radius: 30px;
+    height: 100%;
+    position: relative;
+    width: calc(100% - 150px);
+    display: inline-block;
+    vertical-align: top;
+    padding: 45px 45px 20px 45px;
+}
+
+.centered-content form {
+    text-align: left;
+}
+
+.centered-content label{
+    color: #EBDBB2;
+    font-size: larger;
+    padding-right: 25px;
+    vertical-align: center;
+    margin-left: 10px;
+}
+
+
+.centered-content input, .centered-content textarea {
+    background-color: #3C3836;
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    padding: 0 15px 0 15px;
+    color: #D5C4A1;
+    margin: 10px 0 10px 0;
+    font-size: larger;
+    width: calc(100% - 30px);
+    margin-bottom: 25px;
+}
+
+.centered-content #enviar {
+    width: 100%;
+    transition-duration: .2s;
+    color: #FBF1C7;
+    font-weight: bolde;
+}
+
+.centered-content #enviar:hover {
+    background-color: #665C54;
+    cursor: pointer;
+}
+
+.centered-content textarea {
+    height: 400px;
+    font-style: normal;
+    padding: 15px;
+    resize: none;
+}
+
 .left-content {
     margin-right: 15px;
 }
@@ -268,7 +324,7 @@ footer {
     color: #FABD2F;
 }
 
-.splitted-content h1 {
+.splitted-content h1, .centered-content h1 {
     font-size: 250%;
     font-weight: bolder;
     text-align: center;
