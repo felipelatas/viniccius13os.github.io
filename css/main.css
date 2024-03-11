@@ -1,4 +1,4 @@
-@font-face {
+@font-facer {
     font-family: 'Symbols Nerd Font';
     src: url(../fonts/SymbolsNerdFont-Regular.ttf);
 }
@@ -286,14 +286,14 @@ footer {
     margin-bottom: 25px;
 }
 
-#Formulario #enviar {
+#Formulario #Enviar {
     width: 100%;
     transition-duration: .2s;
     color: #FBF1C7;
     font-weight: bolde;
 }
 
-#Formulario #enviar:hover {
+#Formulario #Enviar:hover {
     background-color: #665C54;
     cursor: pointer;
 }

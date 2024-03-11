@@ -1,4 +1,5 @@
-function enviar() {
+document.getElementById("Formulario").addEventListener('submit', (event) => {
+    event.preventDefault()
     var nome = document.getElementById("nome").value
     var email = document.getElementById("email").value
     var comentario = document.getElementById("comentario").value
@@ -18,4 +19,4 @@ function enviar() {
 
     alert("agradecemos o seu contato!")
     document.getElementById("Formulario").reset()
-}
+})
