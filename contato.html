@@ -26,28 +26,26 @@
         <div class="content-block">
             <h1>Entre em contato conosco</h1>
             <br>
-            <div class="centered-content">
-                <form action="" id="Formulario">
-                    <label>Nome completo</label>
-                    <br>
-                    <input class="nome" type="text" placeholder="digite o seu nome">
-                    <br>
-                    <label>E-mail</label>
-                    <br>
-                    <input class="email" type="text" placeholder="email@email.com">
-                    <br>
-                    <textarea id="comentario" placeholder="deixe seu comentário"></textarea>
-                    <br>
-                    <input type="submit" id="enviar" value="Enviar" onclick="rodar(true)">
-                </form>
+            <form action="" id="Formulario" onsubmit="enviar()">
+                <label>Nome completo</label>
+                <br>
+                <input id="nome" type="text" placeholder="digite o seu nome">
+                <br>
+                <label>E-mail</label>
+                <br>
+                <input id="email" type="text" placeholder="email@email.com">
+                <br>
+                <textarea id="comentario" placeholder="deixe seu comentário"></textarea>
+                <br>
+                <input type="submit" id="Enviar" value="Enviar"">
             </div>
         </div>
+	    <script src="js/Contato.js"></script>
     </content>
     <footer>
         <div class="foot">
             <p>© Todos os direitos reservados à Redstone Gang</p>
         </div>
     </footer>
-    <script src="js/Contato.js"></script>
 </body>
 </html>

@@ -252,7 +252,7 @@ footer {
     padding-bottom: 25px;
 }
 
-.centered-content {
+#Formulario {
     background-color: #282828;
     border-radius: 30px;
     height: 100%;
@@ -261,13 +261,10 @@ footer {
     display: inline-block;
     vertical-align: top;
     padding: 45px 45px 20px 45px;
-}
-
-.centered-content form {
     text-align: left;
 }
 
-.centered-content label{
+#Formulario label{
     color: #EBDBB2;
     font-size: larger;
     padding-right: 25px;
@@ -276,7 +273,7 @@ footer {
 }
 
 
-.centered-content input, .centered-content textarea {
+#Formulario input, #Formulario textarea {
     background-color: #3C3836;
     border: 0;
     border-radius: 25px;
@@ -289,19 +286,19 @@ footer {
     margin-bottom: 25px;
 }
 
-.centered-content #enviar {
+#Formulario #enviar {
     width: 100%;
     transition-duration: .2s;
     color: #FBF1C7;
     font-weight: bolde;
 }
 
-.centered-content #enviar:hover {
+#Formulario #enviar:hover {
     background-color: #665C54;
     cursor: pointer;
 }
 
-.centered-content textarea {
+#Formulario textarea {
     height: 400px;
     font-style: normal;
     padding: 15px;
